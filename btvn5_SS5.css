@@ -1,0 +1,28 @@
+h2{
+    text-align: center;
+    color: #1e90ff;    
+}
+div{
+    font-family: 'Arial', sans-serif;
+}
+table{
+    margin: auto;
+    box-align: center;
+    text-align: center ;
+}
+input[type="text"], input[type="email"], textarea {    width: 100%; /* Đặt chiều rộng của ô nhập liệu */
+    padding: 8px; /* Thêm khoảng cách bên trong ô nhập liệu */
+    margin: 4px; /* Thêm khoảng cách bên ngoài ô nhập liệu */
+    box-sizing: border-box; /* Đảm bảo padding và border không làm thay đổi kích thước tổng thể */
+    border: #1e90ff 1px solid;
+}
+input[type="submit"] {
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer; /*  Thay đổi con trỏ khi hover qua nút */
+}
+
+
+/*padding: 10px 20px; Thêm khoảng cách bên trong nút 
+    border-radius: 4px;  Bo góc nút 
+    border: none;  Loại bỏ viền mặc định */

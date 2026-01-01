@@ -1,0 +1,18 @@
+div.header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    background-color: #7fbaf5;
+}
+div.header a:link {
+    color: blue
+}
+div.header a:visited {
+    color: purple
+}
+div.header a:hover {
+    color: red
+}
+div.header a:active {
+    color: yellow
+}

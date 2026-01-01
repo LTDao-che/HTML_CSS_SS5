@@ -1,0 +1,30 @@
+.picture {
+    text-align: center;
+    
+}
+.picture img{
+    display: block; /* Center the image  hình ảnh từ inline (mặc định) sang block (khối).*/
+    margin-left: auto; /* Center the image */
+    margin-right: auto; /* Center the image */
+    width: 300px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio  giúp hình ảnh không bị bóp méo không bị quá cao hoặc quá lùn so với thực tế*/
+}
+.picture:hover{
+    background-color:  #e6f7ff;
+    transform: scale(1.1); /* Zoom in effect | Nếu là scale(1.5): Phóng to 150%*/
+    transition: transform 0.3s; /* Smooth transition | transform: Chỉ định thuộc tính nào sẽ được áp dụng hiệu ứng mượt (ở đây là lệnh phóng to bên trên) | 0.3s: Thời gian diễn ra hiệu ứng là 0.3 giây.*/
+}
+h2, .name{
+    text-align: center;
+    color: #1e90ff;    
+}
+div{
+    font-family: 'Arial', sans-serif;
+}
+p{
+    text-align: center;
+}
+.name{
+    font-size: 24px;
+    margin-top: 10px;
+}

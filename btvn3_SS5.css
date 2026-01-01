@@ -1,0 +1,24 @@
+div{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+}
+h1{
+    font-size: 23px;
+    text-align: center;
+    color: #1e90ff;
+    margin-bottom: 0%;
+    
+}
+h1 + p{
+    line-height: 0%;
+    text-align: center;
+}
+.line {
+    text-decoration: line-through underline;
+}
+.bold {
+    font-weight: bold;
+}
+.spacing {
+    letter-spacing: 2px;
+}

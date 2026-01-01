@@ -1,0 +1,29 @@
+.back-color{
+    background-color: #f4f4f9;
+}
+h1, h2, h1 + p{
+    text-align: center;
+    color: hsl(210, 100%, 56%);    
+}
+*{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+#bold{
+    font-weight: bold;
+}
+#italic{
+    font-style: italic;
+}
+#underline{
+    text-decoration: underline;
+}
+#color{
+    color: hsl(0, 100%, 50%);
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}

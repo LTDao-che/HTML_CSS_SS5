@@ -1,0 +1,56 @@
+div.header {
+    text-align: center;
+    color: white;
+    background-color: #3b67cc;
+}
+div.header h1 {
+    letter-spacing: 1px;
+}
+h1 + p {
+    font-style: italic;
+}
+body{
+    margin: 0; /*Loại bỏ khoảng trắng thừa của trình duyệt để footer/header tràn sát mép */
+    padding: 0;
+    background-color: aliceblue;
+}
+h2 {
+    color: #3b67cc;
+}
+div.footer {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;     /* Căn giữa theo chiều dọc */
+    color: white;
+    background-color: #3b67cc;
+    width: 100%;
+    margin-top: 40px;
+    height: 60px;            /* Độ cao của thanh footer */
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lightblue{
+    font-style: italic;
+    color: #3b67cc;
+}
+#red{
+    font-style: italic;
+    color: red;
+}
+.list{
+    list-style: none; /* Bỏ chấm tròn mặc định */
+}
+.list li{
+    display: flex; /*Kích hoạt chế độ "Flexible Box" (Hộp linh hoạt). Khi có dòng này, các thành phần bên trong (icon răng và chữ) sẽ tự động nằm cạnh nhau trên một hàng ngang thay vì bị xuống dòng.*/
+    align-items: center; /*Căn chỉnh các phần tử bên trong vào giữa theo chiều dọc. Nếu không có dòng này, cái icon răng có thể bị cao hơn hoặc thấp hơn so với dòng chữ, trông rất lệch lạc. */
+}
+.list li::before{ /*::before: Ra lệnh cho trình duyệt: "Hãy thêm một thứ gì đó vào ngay phía trước nội dung của thẻ li */
+    content: "🦷"; /* Chèn thứ muốn chèn */
+    font-size: 20px; /* Kích thước của chấm tròn */
+    margin-right: 10px; /* Khoảng cách giữa chấm tròn và nội dung */
+}
